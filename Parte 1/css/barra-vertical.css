@@ -15,16 +15,33 @@ ul a
     width: 200px;
     height: 40px;
     display: block;
-    background: url(../imgs/menu.png) no-repeat left bottom;
+    background: #f7b600 url(../imgs/menu.png) no-repeat left bottom;
     text-decoration: none;
     color: black;
     text-indent: 40px;
     line-height: 40px;
 }
 
+a:hover, .selecionado a
+{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}
+
 a:hover
 {
     background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}
+
+#home #barra-lateral .a a, 
+#sobre #barra-lateral .b a, 
+#contato #barra-lateral .c a 
+{
+    background-position: right bottom;
+    background-color: #f99200;
     color: white;
 }
 
