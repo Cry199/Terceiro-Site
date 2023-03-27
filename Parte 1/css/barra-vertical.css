@@ -1,0 +1,30 @@
+*
+{
+    
+}
+
+ul
+{
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+}
+
+ul a
+{
+    width: 200px;
+    height: 40px;
+    display: block;
+    background: url(../imgs/menu.png) no-repeat left bottom;
+    text-decoration: none;
+    color: black;
+    text-indent: 40px;
+    line-height: 40px;
+}
+
+a:hover
+{
+    background-position: right bottom;
+    color: white;
+}
+
