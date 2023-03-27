@@ -1,0 +1,41 @@
+*
+{
+    border: 0.5px solid rgb(0, 0, 0);
+    margin: 5px;
+    padding: 5px;
+}
+
+body
+{
+    font-size: 16px;
+    border: 0.5px solid rgb(255, 0, 0);
+}
+
+/*
+    #pagina p
+    {
+        color: green ;
+    }
+
+    #pagina p
+    {
+        color: blue;
+    }
+
+
+    #pagina h1
+    {
+        color: green !important;
+    }
+
+    #pagina h1
+    {
+        color: blue;
+    }
+
+    se um seletor for mais específico que outro 
+    a regra mais específica será aplicada
+    (terá precedência sobre regras mais gerais)
+*/
+
+
