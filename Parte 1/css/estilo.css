@@ -1,0 +1,76 @@
+/* 
+    Link para o PDF
+    https://drive.google.com/file/d/18-NhIY66Ib9M1taBXqYb54feCdmhfc7p/view?usp=sharing 
+*/
+
+* 
+{
+    /* Seletor Universal */
+    border: 0.5px solid rgba(240, 238, 238, 0.555);
+    margin: 10px;
+}
+
+#pdf
+{
+    font-size: 0.8em;
+    color: black;
+    text-decoration: underline;
+}
+
+h1, h2{
+    /* Seletor de Texto */
+
+    color: rgb(255, 153, 0);
+}
+
+#head
+{
+    /* Seletor de ID */
+    border: 2px solid rgb(47, 0, 255);
+}
+
+.verde
+{
+    /* Seletor de Classe */
+    color: green;
+}
+
+p .verde
+{
+    /* Seletor de Classe */
+    color: violet;
+}
+
+h1 + p + p
+{
+    /* Seletor de irmão adjacente */
+    color: rgb(255, 106, 0);
+}
+
+li>a
+{
+    /* Seletor de Filho */
+    color: red;
+    text-decoration: none;
+}
+
+li>span>a
+{
+    /* Seletor de Filho */
+    color: rgb(30, 255, 0);
+    text-decoration: none;
+}
+
+div a
+{
+    /* Seletor de descendente */
+    color: rgb(0, 225, 255);
+    text-decoration: none;
+}
+
+.irGeral h1~p
+{
+    /* Seletor de descendente */
+    color: rgb(251, 255, 0);;
+}
+
