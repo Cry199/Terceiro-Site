@@ -1,0 +1,40 @@
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table
+{
+    width: 600px;
+    border-collapse: separate; /* collapse */
+}   
+
+th, td
+{
+    padding: 7px;
+}
+
+th
+{
+    text-transform: uppercase;
+    border-top: 1px solid cadetblue;
+    border-bottom: 1px solid rgb(41, 80, 90);
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+
+tr.alterna
+{
+    background-color: rgba(231, 248, 243, 0.822);
+}
+
+tr:hover
+{
+    background-color: #c3e6e5;
+}
+
+.num
+{
+    text-align: right;
+}
