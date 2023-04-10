@@ -6,34 +6,52 @@ body
 
 #container
 {
-    width: 720px;
+    width: 960px;
     margin: 0 auto;
-    background: #fff;
+    background: #fff url(../imgs/coluna.png) repeat-y left top;
+    min-width: 720px;
+    max-width: 920px;
 }
 
 #marca
 {
-    height: 100px;
-    background: #9e9e9e;
+    height: 200px;
+    background: #FEEFF7 url(../imgs/download.gif) no-repeat center;
     text-align: center;
-    line-height: 100px;
+    line-height: 200px;
 }
 
 #conteudo
 {
-    width: 520px;
+    width: 75%;
     float: right;
 }
 
 #conteudo-principal
 {
-    width: 320px;
+    width: 64%;
     float: left;
+    padding: 5px;
 }
+
+img.img-noticia
+{
+    width: 90%;
+    padding: 2%;
+    max-width: 600px;
+}
+
+/*
+#img
+{
+    width: 90%;
+    overflow: hidden;
+}
+*/
 
 #conteudo-secundario
 {
-    width: 180px;
+    width: 34%;
     float: right;
     background: #d1d1d1;
     font-size: 0.7em;
@@ -48,11 +66,11 @@ body
 
 #navegacao
 {
-    width: 180px;
+    width: 22%;
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: #d1d1d1;
+   /* background: #d1d1d1; */
 }
 
 #navegacao ul
